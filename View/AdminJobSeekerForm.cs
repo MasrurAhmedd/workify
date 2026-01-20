@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using Online_Job_Management_System_Kamao.Controller;
 using Online_Job_Management_System_Kamao.Model;
 
-namespace Online_Job_Management_System_Kamao.View
+namespace Online_Job_Management_System_Kamao.View  
 {
     public partial class AdminJobSeekerForm : Form
     {

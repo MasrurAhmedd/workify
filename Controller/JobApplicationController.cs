@@ -4,8 +4,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
-using System.Data;
-using Online_Job_Management_System_Kamao.Model;
+using System.Data; 
+using Online_Job_Management_System_Kamao.Model; 
 
 namespace Online_Job_Management_System_Kamao.Controller
 {

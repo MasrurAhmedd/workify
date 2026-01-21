@@ -36,6 +36,8 @@ namespace Online_Job_Management_System_Kamao.Controller
         }
         public List<Admin> GetAllAdmins()
         {
+
+            //Admin checkout
             Admins  ads = new Admins();
             List<Admin> adminList = ads.GetAllAdmins();
             return adminList;

@@ -41,6 +41,7 @@ namespace Online_Job_Management_System_Kamao.View
                         if (today > dateTimePicker1.Value)
                         {
                             MessageBox.Show("Job deadline cannot be before the post date.");
+                             // job deadline text :) 
                         }
                         else
                         {

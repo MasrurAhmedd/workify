@@ -13,6 +13,7 @@ namespace Online_Job_Management_System_Kamao.Controller
         {
             Counts cnts = new Counts();
             cnts.UpdateCount(c);
+            //updates count
         }
         public Count SearchCount(int countId)
         {

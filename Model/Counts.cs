@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace Online_Job_Management_System_Kamao.Model
 {
-    public class Counts
+    public class Counts 
     {
         SqlDbDataAccess sda = new SqlDbDataAccess();
         public void UpdateCount(Count c)

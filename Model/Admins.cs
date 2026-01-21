@@ -90,7 +90,7 @@ namespace Online_Job_Management_System_Kamao.Model
             SqlCommand cmd = sda.GetQuery("SELECT * FROM Admin;");
             cmd.CommandType = CommandType.Text;
             return GetData(cmd);
-        }
+        } 
 
-    }
-}
+    } 
+} 

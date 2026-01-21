@@ -36,6 +36,7 @@ namespace Online_Job_Management_System_Kamao.Model
 
                     smtpClient.Send(mail);
                     Console.WriteLine("OTP sent to your email successfully!");
+                    //sends otp email 
                 }
             }
             catch (Exception ex)

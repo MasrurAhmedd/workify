@@ -14,6 +14,7 @@ namespace Online_Job_Management_System_Kamao.Model
         {
             Random random = new Random();
             return random.Next(100000, 999999).ToString();
+            //Returns Random number
         }
 
         public void SendOtpToEmail(string email, string otp)
